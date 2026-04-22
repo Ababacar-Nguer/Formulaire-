@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'time new roman', times, serif;
+    background-image: url(Photo/fossane-trees-4896953_1920.jpg);
+    background-size: cover;
+}
+.Formulaire{
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    background: cover;
+    width: 410px;
+    height: 420px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-bottom: 230px;
+    padding: 50px;
+    padding-left: 90px;
+    box-shadow: 0px 4px 15px;
+}
+.Form1 input{
+    background-color: transparent;
+    position: relative;
+    width: 400px;
+    height: 55px;
+    border-radius: 10px;
+    border: solid black 1px;
+    outline: none;
+}
+.Form1 input::placeholder{
+    color: black;
+}
+.Form1 i{
+   color: black;
+   position: absolute; 
+}
+.Formulaire ::placeholder{
+    padding-left: 10px;
+}
+.Form2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.button1 button{
+    justify-content: center;
+    height: 50px;
+    width: 400px;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color:black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button1 button:hover{
+  background-color: transparent;
+  transform: translateY(-3px) scale(1.05)  
+}
+.button2 button{
+    height: 40px;
+    width: 150px;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: black;
+     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button2 button:hover{
+  background-color: transparent;
+  transform: translateY(-3px) scale(1.05)  
+}
+.button2{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.Formulaire a{
+    color: black;
+    outline: none;
+}
+.Form2 input{
+    width: 10px;
+    height: 10px;
+}
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
+.button1 a{
+    text-decoration: none;
+    color: white;
+}
+.Form1{
+    color: black;
+    size: 20px;
+}
+

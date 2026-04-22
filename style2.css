@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'time new roman', times, serif;
+    background-image: url(Photo/tama66-river-4336788_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: move 10s linear infinite;
+}
+@keyframes move{
+0% {
+ background-position: 0% 100px;
+}
+}
+.Inscription{
+    background-color: transparent;
+    width: 410px;
+    height: 630px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 230px;
+    padding: 50px;
+    padding-left: 80px;
+    padding-top: 30px;
+    box-shadow: 0px 4px 15px;
+    backdrop-filter: blur(1px);
+}
+.Inscr1 input{
+    background-color: transparent;
+    position: relative;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid black 1px;
+    outline: none;
+    padding-left: 10px;
+}
+.Inscr1 input::placeholder{
+  color: black;
+}
+.condition input{
+    width: 15px;
+    height: 15px;
+    padding-left: 50px;
+}
+.condition input::placeholder{
+    padding-left: 15px;
+}
+.Inscription button{
+    width: 300px;
+    height: 40px;
+    border: solid black 1px;
+    border-radius: 15px;
+    background-color:black;
+    color: white;
+     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Inscription button:hover{
+  background-color: transparent;
+  transform: translateY(-3px) scale(1.05)  
+}
+.Inscription h1{
+    font-size: 50px;
+}
+.Inscription i{
+    position: relative;
+    margin-left: 350px;
+    margin-bottom: 3px;
+}
